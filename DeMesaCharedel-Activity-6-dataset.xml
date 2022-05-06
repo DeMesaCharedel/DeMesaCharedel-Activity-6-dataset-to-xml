@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE CONOx_MOVES [
+<!ELEMENT CONOx_MOVES (moves)>
+<!ELEMENT Moves (year, month, day, hour, direction, Total_Emis_CO,	HD_Emis_CO,	LD_Emis_CO,	Total_Emis_NOz, HD_Emis_NOx, LD_Emis_NOx)>
+
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT hour (#PCDATA)>
+<!ELEMENT direction (#PCDATA)>
+<!ELEMENT Total_Emis_CO (#PCDATA)>
+<!ELEMENT HD_Emis_CO (#PCDATA)>
+<!ELEMENT LD_Emis_NOx (#PCDATA)>
+<!ELEMENT Total_Emis_NOx (#PCDATA)>
+<!ELEMENT HD_Emis_NOx (#PCDATA)>
+<!ELEMENT LD_Emis_NOx (#PCDATA)>
+
+
+<!ATTLIST Moves row CDATA #REQUIRED>
+
+]>
+
+
+<CONOx_MOVES>
+
+	<moves id = "row 1">
+		<year>2008</year>
+		<month>12</month>
+		<day>1</day>
+		<hour>1</hour>
+		<direction>NB</direction>	
+		<Total_Emis_CO>5060.264634</Total_Emis_CO>	
+		<HD_Emis_CO>1534.220494</HD_Emis_CO>
+		<LD_Emis_NOx> 3526.04414</LD_Emis_NOx>
+		<Total_Emis_NOx> 1939.145415</Total_Emis_NOx>
+		<HD_Emis_NOx> 1407.814523</HD_Emis_NOx>
+		<LD_Emis_NOx> 531.3308921</LD_Emis_NOx>
+
+	</moves>
+
+	<moves id = "row 2">
+		<year>2008</year>
+		<month>12</month>
+		<day>1</day>
+		<hour>1</hour>
+		<direction>SB</direction>	
+		<Total_Emis_CO>4856.810431</Total_Emis_CO>	
+		<HD_Emis_CO>1292.913774</HD_Emis_CO>
+		<LD_Emis_NOx>3563.896657</LD_Emis_NOx>
+		<Total_Emis_NOx>1745.241708</Total_Emis_NOx>
+		<HD_Emis_NOx>1193.355438</HD_Emis_NOx>
+		<LD_Emis_NOx>551.8862698</LD_Emis_NOx>
+		
+	</moves>
+
+	<moves id = "row 3">
+		<year>2008</year>
+		<month>12</month>
+		<day>11</day>
+		<hour>9</hour>
+		<direction>SB</direction>	
+		<Total_Emis_CO>12219.198</Total_Emis_CO>	
+		<HD_Emis_CO>3559.342379</HD_Emis_CO>
+		<LD_Emis_NOx>8659.855625</LD_Emis_NOx>
+		<Total_Emis_NOx>4769.44202</Total_Emis_NOx>
+		<HD_Emis_NOx>3396.363049</HD_Emis_NOx>
+		<LD_Emis_NOx>1373.078971</LD_Emis_NOx>
+		
+	</moves>
+
+	<moves id = "row 4">
+		<year>2008</year>
+		<month>12</month>
+		<day>11</day>
+		<hour>10</hour>
+		<direction>NB</direction>	
+		<Total_Emis_CO>2291.71503</Total_Emis_CO>	
+		<HD_Emis_CO>4671.971848</HD_Emis_CO>
+		<LD_Emis_NOx>17819.74319</LD_Emis_NOx>
+		<Total_Emis_NOx>5957.275874</Total_Emis_NOx>
+		<HD_Emis_NOx>4095.428175</HD_Emis_NOx>
+		<LD_Emis_NOx>1861.847698</LD_Emis_NOx>
+		
+	</moves>
+
+	<moves id = "row 5">
+		<year>2009</year>
+		<month>6</month>
+		<day>13</day>
+		<hour>24</hour>
+		<direction>SB</direction>	
+		<Total_Emis_CO>14919.45171</Total_Emis_CO>	
+		<HD_Emis_CO>2607.91069</HD_Emis_CO>
+		<LD_Emis_NOx>12311.54102</LD_Emis_NOx>
+		<Total_Emis_NOx>3960.743696</Total_Emis_NOx>
+		<HD_Emis_NOx>2310.59244</HD_Emis_NOx>
+		<LD_Emis_NOx>1650.151257</LD_Emis_NOx>
+		
+	</moves>
+
+	<moves id = "row 6">
+		<year>2009</year>
+		<month>3</month>
+		<day>1</day>
+		<hour>22</hour>
+		<direction>SB</direction>	
+		<Total_Emis_CO>9881.034193</Total_Emis_CO>	
+		<HD_Emis_CO>2247.901824</HD_Emis_CO>
+		<LD_Emis_NOx>7633.132369</LD_Emis_NOx>
+		<Total_Emis_NOx>3355.260003</Total_Emis_NOx>
+		<HD_Emis_NOx>2144.974983</HD_Emis_NOx>
+		<LD_Emis_NOx>1210.28502</LD_Emis_NOx>
+
+	</moves>
+
+	<moves id = "row 7">
+		<year>2009</year>
+		<month>3</month>
+		<day>1</day>
+		<hour>23</hour>
+		<direction>NB</direction>	
+		<Total_Emis_CO>9143.893072</Total_Emis_CO>	
+		<HD_Emis_CO>2735.380855</HD_Emis_CO>
+		<LD_Emis_NOx>6408.512217</LD_Emis_NOx>
+		<Total_Emis_NOx>3626.245682</Total_Emis_NOx>
+		<HD_Emis_NOx>2610.133618</HD_Emis_NOx>
+		<LD_Emis_NOx>1016.112064</LD_Emis_NOx>
+		
+	</moves>	
+
+	<moves id = "row 8">
+		<year>2010</year>
+		<month>2</month>
+		<day>28</day>
+		<hour>23</hour>
+		<direction>SB</direction>	
+		<Total_Emis_CO>14666.26728</Total_Emis_CO>	
+		<HD_Emis_CO>2334.713292</HD_Emis_CO>
+		<LD_Emis_NOx>12331.55399</LD_Emis_NOx>
+		<Total_Emis_NOx>2643.37162</Total_Emis_NOx>
+		<HD_Emis_NOx>1686.334933</HD_Emis_NOx>
+		<LD_Emis_NOx>957.0366876</LD_Emis_NOx>
+		
+	</moves>
+
+	<moves id = "row 9">
+		<year>2010</year>
+		<month>2</month>
+		<day>28</day>
+		<hour>24</hour>
+		<direction>NB</direction>	
+		<Total_Emis_CO>10339.28534</Total_Emis_CO>	
+		<HD_Emis_CO>2729.265141</HD_Emis_CO>
+		<LD_Emis_NOx>7610.0202</LD_Emis_NOx>
+		<Total_Emis_NOx>2532.353974</Total_Emis_NOx>
+		<HD_Emis_NOx>1958.122963</HD_Emis_NOx>
+		<LD_Emis_NOx>574.2310108</LD_Emis_NOx>
+		
+	</moves>	
+
+
+	<moves id = "row 10">
+		<year>2010</year>
+		<month>2</month>
+		<day>28</day>
+		<hour>24</hour>
+		<direction>SB</direction>	
+		<Total_Emis_CO>12225.62014</Total_Emis_CO>	
+		<HD_Emis_CO>1979.388774</HD_Emis_CO>
+		<LD_Emis_NOx>10246.23137</LD_Emis_NOx>
+		<Total_Emis_NOx>2224.885739</Total_Emis_NOx>
+		<HD_Emis_NOx>1429.688367</HD_Emis_NOx>
+		<LD_Emis_NOx>795.1973723</LD_Emis_NOx>
+		
+	</moves>
+
+
+</CONOx_MOVES>
